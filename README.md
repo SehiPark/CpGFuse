@@ -5,6 +5,10 @@
 Anomalous DNA methylation has wide-ranging implications, spanning from neurological disorders to cancer and cardiovascular complications. Current methods for single-cell DNA methylation analysis face limitations in coverage, leading to information loss and hampering our understanding of disease associations. This study addresses the challenge of precise identification of CpG site methylation states by introduction of CpGFuse, a novel methodology. CpGFuse tackles this issue by combining information from diverse genomic features. Leveraging two benchmark datasets, we employed a careful preprocessing approach and conducted a comprehensive ablation study to assess the individual and collective contributions of DNA sequence, intercellular, and intracellular features. Our proposed model, CpGFuse, employs a Convolutional Neural Network (CNN) with an attention mechanism, surpassing existing models across HCCs and HepG2 datasets. The results highlight the effectiveness of our approach in enhancing accuracy and providing a robust tool for CpG site prediction in genomics. CpGFuse’s success underscores the importance of integrating multiple genomic features for accurate identification of methylation states of CpG site
 
 
+# Raw data
+
+The raw data used for preparing the train/validate/test datasets for HCC and HepG2 cells can be downloaded from Gene Expression Omnibus: [GSE6536](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE65364)
+
 # Methylation Data Processing Pipeline
 
 This repository contains a comprehensive pipeline for processing and analyzing single-cell DNA methylation data from HepG2/HCC cells. The pipeline includes steps for data preprocessing, feature extraction, and dataset creation, as well as a neural network model for CpG site methylation prediction.
