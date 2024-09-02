@@ -16,14 +16,15 @@ This project aims to process single-cell DNA methylation data from HepG2/HCC cel
 
 ## Dependencies
 
-The following Python packages are required to run the pipeline:
+The following esstential Python packages are required to run the pipeline:
 
-- pandas
-- numpy
-- pickle
-- Genome
-- keras
-- tensorflow
+- pandas==1.1.5
+- numpy==1.19.5
+- keras==2.6.0
+- tensorflow==2.6.0
+- biopython==1.79
+- scikit-learn==0.24.1
+- scipy==1.5.4
 
 ## Pipeline Steps
 
