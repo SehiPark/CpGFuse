@@ -28,6 +28,7 @@ The following esstential Python packages are required to run the pipeline:
 
 ## Pipeline Steps
 
+The full code of each step in the pipeline is available in the files CpGFuse_HCCs.ipynb for HCC cells and CpGFuse_HepG2.ipynb for HepG2 cells.
 ### 1. Data Import
 
 We start by importing the raw methylation data files and the necessary Python libraries.
