@@ -14,9 +14,6 @@ The raw data used for preparing the train/validate/test datasets for HCC and Hep
 This repository contains a comprehensive pipeline for processing and analyzing single-cell DNA methylation data from HepG2/HCC cells. The pipeline includes steps for data preprocessing, feature extraction, and dataset creation, as well as a neural network model for CpG site methylation prediction.
 
 
-## Introduction
-
-This project aims to process single-cell DNA methylation data from HepG2/HCC cells to extract features that can be used for training machine learning models. The pipeline performs data cleaning, feature extraction, and dataset preparation, followed by training a neural network to predict CpG site methylation.
 
 ## Dependencies
 
@@ -32,7 +29,7 @@ The following esstential Python packages are required to run the pipeline:
 
 ## Pipeline Steps
 
-The full code of each step in the pipeline is available in the files CpGFuse_HCCs.ipynb for HCC cells and CpGFuse_HepG2.ipynb for HepG2 cells.
+The full code of each step in the pipeline is available in the files [CpGFuse_HCCs.ipynb](https://github.com/SehiPark/CpGFuse/blob/main/CpGFuse_HCCs.ipynb) for HCC cells and [CpGFuse_HepG2.ipynb](https://github.com/SehiPark/CpGFuse/blob/main/CpGFuse_HepG2.ipynb) for HepG2 cells.
 ### 1. Data Import
 
 We start by importing the raw methylation data files and the necessary Python libraries.
