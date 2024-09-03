@@ -262,3 +262,15 @@ def train_and_evaluation(number_of_cells):
 The trained models can be downloaded from [trained_models](https://github.com/SehiPark/CpGFuse/tree/main/trained_models).
 - [HCCs trained models](https://github.com/SehiPark/CpGFuse/tree/main/trained_models/HCC_models)
 - [HepG2 trained models](https://github.com/SehiPark/CpGFuse/tree/main/trained_models/HepG2_models)
+
+
+
+## Testset predictions
+
+The trained models can be downloaded from [trained_models](https://github.com/SehiPark/CpGFuse/tree/main/trained_models).
+- [HCCs](https://github.com/SehiPark/CpGFuse/blob/main/preidction_HCCs.zip)
+- [HepG2](https://github.com/SehiPark/CpGFuse/blob/main/prediction_hepg2.zip)
+
+
+
+
